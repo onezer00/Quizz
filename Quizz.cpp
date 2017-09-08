@@ -1,5 +1,9 @@
 #include <iostream>
 
+/**By: OneZer0
+SCRIPT PARA ABRIR PORTAS DO ROTEADOR!!!
+**/
+
 using namespace std;
 void logo(){
 cout << " ________  ___  ___  ___  ________  ________     " << endl;
