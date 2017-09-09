@@ -1,7 +1,7 @@
 #include <iostream>
 
-/**By: OneZer0
-Quizz!!!
+/**By: 
+OneZer0 - Quizz!!!
 **/
 
 using namespace std;
