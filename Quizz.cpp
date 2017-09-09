@@ -1,7 +1,7 @@
 #include <iostream>
 
 /**By: OneZer0
-SCRIPT PARA ABRIR PORTAS DO ROTEADOR!!!
+Quizz!!!
 **/
 
 using namespace std;
