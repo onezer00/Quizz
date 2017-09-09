@@ -1,19 +1,30 @@
 #include <iostream>
 
 /**
-By: OneZer0 - Quizz!!!
+Author: OneZer0 - Quizz
 **/
 
 using namespace std;
+void limpar(){
+    #ifdef linux
+        system("clear");
+    #else
+        system("cls");
+    #endif // linux
+}
+
 void logo(){
-    cout << " ________  ___  ___  ___  ________  ________     " << endl;
-    cout << "|\   __  \|\  \|\  \|\  \|\_____  \|\_____  \    " << endl;
-    cout << "\ \  \|\  \ \  \\\  \ \  \\|___/  /|\|___/  /|   " << endl;
-    cout << " \ \  \\\  \ \  \\\  \ \  \   /  / /    /  / /   " << endl;
-    cout << "  \ \  \\\  \ \  \\\  \ \  \ /  /_/__  /  /_/__  " << endl;
-    cout << "   \ \_____  \ \_______\ \__\\________\\________`" << endl;
-    cout << "    \|___| \__\|_______|\|__|\|_______|\|_______|" << endl;
-    cout << "          \|__|" << endl;
+    cout << "  ______             __                     " << endl;
+    cout << " /      \           /  |                    " << endl;
+    cout << "/$$$$$$  | __    __ $$/  ________  ________ " << endl;
+    cout << "$$ |  $$ |/  |  /  |/  |/        |/        |" << endl;
+    cout << "$$ |  $$ |$$ |  $$ |$$ |$$$$$$$$/ $$$$$$$$/ " << endl;
+    cout << "$$ |_ $$ |$$ |  $$ |$$ |  /  $$/    /  $$/  " << endl;
+    cout << "$$ / \$$ |$$ \__$$ |$$ | /$$$$/__  /$$$$/__ " << endl;
+    cout << "$$ $$ $$< $$    $$/ $$ |/$$      |/$$      |" << endl;
+    cout << " $$$$$$  | $$$$$$/  $$/ $$$$$$$$/ $$$$$$$$/ " << endl;
+    cout << "     $$$/                                   " << endl;
+    cout << "\n\n";
     cout << "\n\n";
 }
 
@@ -31,7 +42,7 @@ void menu(){
 
     switch(men){
     case 1:
-        system("clear");
+        limpar();
         cout << "1 - Iniciante" << endl;
         cout << "2 - Médio" << endl;
         cout << "3 - Avançado" << endl;
