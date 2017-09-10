@@ -1,18 +1,11 @@
 #include <iostream>
+#include <stdio.h>
 
 /**
-Author: OneZer0 - Quizz
+By: OneZer0 - Quizz!!!
 **/
 
 using namespace std;
-void limpar(){
-    #ifdef linux
-        system("clear");
-    #else
-        system("cls");
-    #endif // linux
-}
-
 void logo(){
     cout << "  ______             __                     " << endl;
     cout << " /      \           /  |                    " << endl;
@@ -24,7 +17,6 @@ void logo(){
     cout << "$$ $$ $$< $$    $$/ $$ |/$$      |/$$      |" << endl;
     cout << " $$$$$$  | $$$$$$/  $$/ $$$$$$$$/ $$$$$$$$/ " << endl;
     cout << "     $$$/                                   " << endl;
-    cout << "\n\n";
     cout << "\n\n";
 }
 
@@ -42,7 +34,7 @@ void menu(){
 
     switch(men){
     case 1:
-        limpar();
+        system("clear || cls");
         cout << "1 - Iniciante" << endl;
         cout << "2 - Médio" << endl;
         cout << "3 - Avançado" << endl;
